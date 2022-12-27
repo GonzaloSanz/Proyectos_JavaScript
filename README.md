@@ -7,3 +7,4 @@ Recopilación de proyectos realizados con JavaScript.
 04 - Agregar tweets con LocalStorage -> https://gs-agregartweetsls.netlify.app/  
 05 - Carrito de compra con LocalStorage -> https://gs-carritols.netlify.app/  
 06 - Cotizador de seguro de coche con prototypes -> https://gs-cotizadorseguro.netlify.app/
+07 - Administrador de gastos con clases -> https://gs-administradorgastos.netlify.app/
