@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administrador de Citas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h2 class="text-center my-5 titulo">Administrador de Pacientes de Veterinaria</h2>
+    <div class="container mt-5 p-5">
+        <div id="contenido" class="row justify-content-between">
+            <div class="col-md-6 agregar-cita">
+                <form id="nueva-cita">
+                    <h2 class="mb-4">Datos del Paciente</h2>
+
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Nombre Mascota:</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="mascota" name="mascota" class="form-control"
+                                placeholder="Nombre de la Mascota">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Propietario:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="propietario" name="propietario" class="form-control"
+                                placeholder="Dueño de la Mascota">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Teléfono:</label>
+                        <div class="col-sm-9">
+                            <input type="tel" id="telefono" name="telefono" class="form-control"
+                                placeholder="Número de Teléfono">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Fecha:</label>
+                        <div class="col-sm-9">
+                            <input type="date" id="fecha" name="fecha" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Hora:</label>
+                        <div class="col-sm-9">
+                            <input type="time" id="hora" name="hora" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-4">
+                        <label class="col-sm-3 col-form-label">Sintomas:</label>
+                        <div class="col-sm-9">
+                            <textarea id="sintomas" name="sintomas" class="form-control"
+                                placeholder="Escribe los síntomas aquí..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="btnFormulario" class="btn btn-success w-100">Crear Cita</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <h2 id="administra" class="mb-4 mt-5 mt-md-0">Administra tus Citas</h2>
+                <ul id="citas" class="list-group lista-citas"></ul>
+            </div>
+        </div> <!--.row-->
+    </div><!--.container-->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
