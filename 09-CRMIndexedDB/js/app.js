@@ -15,7 +15,6 @@
     });
 
     function eliminarRegistro(e) {
-
         // Comprobamos si el elemento clickado tiene la clase 'eliminar'
         if (e.target.classList.contains('eliminar')) {
             // Recogemos el id del cliente (data-cliente = id)
