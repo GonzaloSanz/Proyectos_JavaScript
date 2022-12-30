@@ -47,7 +47,7 @@
     }
 
     function llenarFormulario(datosCliente) {
-
+        // Extraer la información del cliente
         const { nombre, email, telefono, empresa } = datosCliente;
 
         nombreInput.value = nombre;
