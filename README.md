@@ -10,4 +10,5 @@ Recopilación de proyectos realizados con JavaScript.
 07 - Administrador de gastos con clases -> https://gs-administradorgastos.netlify.app/  
 08 - Administrador de citas de veterinaria, con clases -> https://gs-administradorcitas.netlify.app/  
 09 - CRM con IndexedDB -> https://gs-crm.netlify.app/  
-10 - Buscador de Clima con Fetch API -> https://gs-buscarclima.netlify.app/
+10 - Buscador de Clima con Fetch API -> https://gs-buscarclima.netlify.app/  
+11- Buscador de Recetas con Fetch API y LocalStorage -> https://gs-buscadorrecetas.netlify.app/index.html  
