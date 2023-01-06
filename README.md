@@ -12,4 +12,5 @@ Recopilación de proyectos realizados con JavaScript.
 09 - CRM con IndexedDB -> https://gs-crm.netlify.app/  
 10 - Buscador de Clima con Fetch API -> https://gs-buscarclima.netlify.app/  
 11 - Buscador de Recetas con Fetch API y LocalStorage -> https://gs-buscadorrecetas.netlify.app/index.html  
-12 - Buscador de Imágenes de Pixalbay con Fetch API -> https://gs-buscadorimagenes.netlify.app/ 
+12 - Buscador de Imágenes de Pixalbay con Fetch API -> https://gs-buscadorimagenes.netlify.app/  
+13 - Cotizador de Criptomonedas con Fetch API -> https://gs-cotizadorcriptomonedas.netlify.app/
